@@ -1,28 +1,11 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+function showMenu(){
+  let menuMobile = document.querySelector('.nav-list-mobile')
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  if(menuMobile.classList.contains('open')){
+      menuMobile.classList.remove('open');
+      document.querySelector('.icon').src = './assets/svg/menu-icon-black-open.svg'
+  }else{
+      menuMobile.classList.add('open');
+      document.querySelector('.icon').src = './assets/svg/menu-icon-black-close.svg'
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
