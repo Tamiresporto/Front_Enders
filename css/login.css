@@ -26,3 +26,8 @@ button{
 button:hover {
        background-color: rgb(253, 145, 4);
 }
+.rec{
+    text-align: right;
+    font-size: 78%;
+    padding: 2%;
+}
