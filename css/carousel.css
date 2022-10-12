@@ -7,8 +7,7 @@ body{
 }
 
 header{
-  height: 6%;
-  z-index: 3;
+  height: 12%;
 }
 
 header nav{
@@ -19,15 +18,19 @@ header nav{
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
 }
 
-header nav h1{
-  text-transform: uppercase;
-  color: black;
-  border: 2px solid black;
+.navbar-brand{
+  color: green;
   padding: 0 2px;
 }
+
+.nav-link{
+  color:#f0f0f0;
+}
+
+
 
 header nav .nav-list ul{
   display: flex;
@@ -66,7 +69,7 @@ main .container-img{
 
 main .container-img section{
   flex-grow: 1;
-  transition-duration: .7s;
+  transition-duration: .2s;
   overflow: hidden;
   position: relative;
   display: flex;

@@ -55,6 +55,10 @@ main {
     transition: 0.3s;
 }
 
+.btn {
+  margin-inline: 5px;
+}
+
 @media(max-width:999px) {
     body{
         overflow-x: hidden;
