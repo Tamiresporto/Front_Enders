@@ -5,27 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <nav>
-            <a class="logo" href="index.html">Home</a>
-            <div class="mobile-menu"></div>
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-            <ul class="nav-list">
-            <li><a href="contato.html">Contato</a></li>
-            </ul>
-            <li><a href="login.html">Login</a></li>
-            </li>
-            </ul>
-        </nav>
-    
-       </header>
-       
+        <nav class="navbar navbar-expand-md navbar-dark .bg-dark.bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" >AssinaTour</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipe</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Planos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Basic</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Standard</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Extreme</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">O Rio como nunca visto antes!</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-success" type="submit"><a href="cadastro.html">Cadastre-se</a></button>
+                  <button class="btn btn-outline-success" type="submit"><a href="login.html">Login</a></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+      
+       <!--MAIN-->
+       <main>
+
+        <!--SECTION DOS CARDS -->
+            <section class="contato-container">
+
+                <!-- CARD TAMIRES -->
+                <div class="card">
+                    <div class="card__img">
+                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
+                    </div>
+                    <div class="card__data">
+                        <h3>TAMIRES PORTO</h3>
+                        <div class="card__descripition">
+                            <small class="card__small">Co-facilitara</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 15,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <!-- CARD ESTER -->
+                <div class="card">
+                    <div class="card__img">
+                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
+                    </div>
+                    <div class="card__data">
+                        <h3>TAMIRES PORTO</h3>
+                        <div class="card__descripition">
+                            <small class="card__small">Co-facilitara</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 15,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <!-- CARD MAICON -->
+                <div class="card">
+                    <div class="card__img">
+                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
+                    </div>
+                    <div class="card__data">
+                        <h3>TAMIRES PORTO</h3>
+                        <div class="card__descripition">
+                            <small class="card__small">Co-facilitara</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 15,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <!-- CARD BRUNA -->
+                <div class="card">
+                    <div class="card__img">
+                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHnmL8ocCet-w/profile-displayphoto-shrink_800_800/0/1653478079669?e=1671062400&v=beta&t=E5F6DWrsDB6OvlgYVE4_96n658tc2PIpMPmui7K0x1Q" alt="Co-facilitadora">
+                    </div>
+                    <div class="card__data">
+                        <h3>TAMIRES PORTO</h3>
+                        <div class="card__descripition">
+                            <small class="card__small">Co-facilitara</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 15,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <!-- CARD SILVIA -->
+                <div class="card">
+                    <div class="card__img">
+                        <img src="IMAGES/Abacaxi-banana-aguadecoco.png" alt="Suco Abacaxi">
+                    </div>
+                    <div class="card__data">
+                        <h3>Suco Abacaxi</h3>
+                        <div class="card__descripition">
+                            <small>Suco de Abacaxi 300ml</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 6,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+            
+            </section>
+
+    </main>
+    <!--FIM DA MAIN-->
     
 </body>
 </html>

@@ -1,0 +1,114 @@
+
+/*---------------BASE-------------------*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+
+/*---------- CARDAPIO------------*/
+.contato-container {
+    padding: 5rem 4rem;
+   
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-bottom: 3%;
+    transition: 0.4s;
+    width: 20%;
+    height: 400px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 8px 8px 0 0;
+}
+
+.card__data {
+    height: 6rem;
+    margin: auto;
+}
+
+.card__small {
+    margin: auto;
+}
+
+.card__data h3 {
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-left: var(--mb-2);
+}
+
+/* TAMANHO DA IMAGEM */
+.card__img {
+    width: 100%;
+}
+
+.card__data .card__descripition {
+    margin: auto;
+}
+
+.card__data small {
+    font-weight: var(--font-light);
+    font-size: var(--normal-font-size);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+
+.card__preci {
+    margin-top: var(--mb-3);
+}
+
+.card__preci span {
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+.card__cart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    background-color: var(--first-color);
+    border-radius: 6px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card__cart:hover {
+    background-color: var(--first-color_alt);
+}
