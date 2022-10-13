@@ -1,3 +1,4 @@
+/*-------bloco de fundo do cadastro*/
 div {
     background-color: rgba(153, 106, 19, 0.774);
     position: absolute;
@@ -8,12 +9,14 @@ div {
     border-radius: 15px;
     color: white;
 }
+/*------formulário-----*/
 input{
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
 }
+/*------botão de de enviar-----*/
 button{
     background-color:rgb(187, 118, 61) ;
     border: none;
@@ -26,8 +29,15 @@ button{
 button:hover {
        background-color: rgb(253, 145, 4);
 }
+/*-------Recuperação de senha, link---*/
 .rec{
     text-align: right;
-    font-size: 78%;
+    font-size: 80%;
+    padding: 2%;
+}
+/*------cadastra-se, link-----*/
+.cade{
+    text-align: right;
+    font-size: 90%;
     padding: 2%;
 }
