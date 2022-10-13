@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Profile card slider using HTML, CSS & JavaScript | Swiper.js</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/contato copy.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+         <!--HEADER - MENU PADRONIZADO -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark .bg-dark.bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" >AssinaTour</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipe</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Planos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Basic</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Standard</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Extreme</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">O Rio como nunca visto antes!</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-success" type="submit"><a href="cadastro.html">Cadastre-se</a></button>
+                  <button class="btn btn-outline-success" type="submit"><a href="login.html">Login</a></button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- FIM DA HEADER -->
+
+    <!--MAIN-->
+    <main>
+        <section>
+            <div class="swiper mySwiper container">
+
+                <!-- CARD TAMIRES -->
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="box1"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Tamires Porto</span>
+                                <span class="profession">Co-facilitara</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="about">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                            </div>
+                            <div class="button b1">
+                                <button class="aboutMe">Sobre mim</button>
+                                <button class="hireMe"> Contato</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="box2"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&uid=R70460828&ga=GA1.2.1826433234.1647754373" alt="">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Andrew James</span>
+                                <span class="profession">Graphic Designer</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="about">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                            </div>
+                            <div class="button b2">
+                                <button class="aboutMe">About Me</button>
+                                <button class="hireMe">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="box3"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&uid=R70460828&ga=GA1.2.1826433234.1647754373" alt="">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Andrew James</span>
+                                <span class="profession">Graphic Designer</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="about">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                            </div>
+                            <div class="button b3">
+                                <button class="aboutMe">About Me</button>
+                                <button class="hireMe">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="box3"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&uid=R70460828&ga=GA1.2.1826433234.1647754373" alt="">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Andrew James</span>
+                                <span class="profession">Graphic Designer</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="about">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                            </div>
+                            <div class="button b3">
+                                <button class="aboutMe">About Me</button>
+                                <button class="hireMe">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="box3"></div>
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&uid=R70460828&ga=GA1.2.1826433234.1647754373" alt="">
+                            </div>
+                            <div class="media-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Andrew James</span>
+                                <span class="profession">Graphic Designer</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="about">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                            </div>
+                            <div class="button b3">
+                                <button class="aboutMe">About Me</button>
+                                <button class="hireMe">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- initializing swiper slider -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              grabCursor: true,
+              autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                },
+              slidesPerGroup: 1,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+            </script>
+    </body>
+</html>
