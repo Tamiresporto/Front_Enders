@@ -7,7 +7,7 @@
 }
 body {
     width: 90%;
-    height: 110vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +32,10 @@ body {
 }
 
 form {
-    width: 115%;
-    height: 100%;
+    width: 120%;
+    height: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: column;
     background-color: rgba(153, 106, 19, 0.671);
