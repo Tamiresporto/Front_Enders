@@ -1,3 +1,47 @@
+/*---------------VARIABLES CSS-------------------*/
+:root {
+    --header-height: 4.5rem;
+
+    /*---------------COLLORS -------------------*/
+    /*---------------COLLORS -------------------*/
+    --first-color: #69B550;
+    --first-color_alt: #1d7a37;
+    --first-color_alt_light: #36ba5b;
+    --light-color: #ffffff;
+    --text-color: #171f07;
+    --body-color: #ffffff;
+    --container-color: #f1fcdc;
+
+    /*---------------FONT  AND TYPOGRAPHY-------------------*/
+    --body-font: "Lato", sans-serif;
+    --font-logo: 'Secular One', sans-serif;
+    --font-logoFit: 'Blaka Ink', cursive;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+
+    /*---------------FONT WEIGHT-------------------*/
+    --font-light: 300;
+    --font-medium: 400;
+    --font-bold: 700;
+
+    /*---------------MARGINS-------------------*/
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    /*---------------Z INDEXS-------------------*/
+    --Z-fixed: 100;
+    --z-tooltip: 10;
+}
+
+
 
 /*---------------BASE-------------------*/
 *,
