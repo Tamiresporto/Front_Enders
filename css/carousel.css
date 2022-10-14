@@ -6,53 +6,6 @@ body{
   position: relative;
 }
 
-header{
-  height: 12%;
-}
-
-header nav{
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 50px;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.navbar-brand{
-  color: green;
-  padding: 0 2px;
-}
-
-.nav-link{
-  color:#f0f0f0;
-}
-
-header nav .nav-list ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  height: 100%;
-}
-
-header nav .nav-list ul li{
-  transition-duration: .1s;
-}
-
-header nav .nav-list ul li a{
-  color: black;
-  padding: 5px 20px;
-  text-transform: uppercase;
-  transition-duration: .2s;
-}
-
-header nav .nav-list ul li:last-child a{
-  border: .5px solid black;
-  border-radius: 2px;
-}
 
 main{
   width: 100%;
@@ -60,6 +13,7 @@ main{
 }
 
 main .container-img{
+  margin-bottom: 650px;
   width: 100%;
   height: 100%;
   display: flex;
