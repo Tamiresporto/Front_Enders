@@ -1,10 +1,21 @@
 .botao1 {
     margin-inline-end: 5px;
 }
-header nav {
-    height: 10%;
-  }
+.main {
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.table-responsive {
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.row {
+    margin: none;
+}
 
+header{
+    margin-bottom: 80px;
+}
 
 
 
