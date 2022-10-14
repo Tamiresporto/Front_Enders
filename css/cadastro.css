@@ -5,13 +5,8 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-body {
-    width: 90%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(153, 106, 19, 0.774);
+.formulario{
+    background-color: rgba(153, 106, 19, 0.363);
 }
 .container {
     width: 88%;
@@ -19,6 +14,8 @@ body {
     display: flex;
     box-shadow: 5px 5px 10px rgba(153, 106, 19, 0.774);
 }
+
+/*--------imagem do formulário------*/
 .form-image {
     width: 90%;
     display: flex;
@@ -30,42 +27,12 @@ body {
 .form-image img {
     width: 31rem;
 }
-
-form {
-    width: 120%;
-    height: 90%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(153, 106, 19, 0.671);
-    padding: 3rem;
-}
 .form-header{
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
-.login-button{
-    display: flex;
-    align-items: center;
-}
-.login-button button {
-    border: none;
-    background-color:rgb(187, 118, 61) ;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.login-button button:hover{
-    background-color: rgb(253, 145, 4);
-}
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-}
 .form-header h1::after{
     content: '';
     display: block;
@@ -86,13 +53,6 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
-}
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6 rgb(253, 145, 4);
 }
 
 .input-box input:hover {
@@ -125,7 +85,10 @@ form {
     font-weight: 600;
     color: #000000c0;
 }
-.cadastrar-button button {
+
+
+/*cadastrar-----*/
+.cada-button button {
     width: 100%;
     margin-top: 1.0rem;
     border: none;
@@ -134,16 +97,19 @@ form {
     border-radius: 5px;
     cursor: pointer;
 }
-.cadastrar-button button:hover{
+.cada-button button:hover{
     background-color: rgba(253, 145, 4, 0.856);
 }
-.cadastrar-button button a{
+.cada-button button a{
     text-decoration: none;
     font-size: 0.93rem;
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
+
+
+/*-----Responsividade-------*/
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;

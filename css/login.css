@@ -2,7 +2,7 @@
 .tela{
     background-color: rgba(153, 106, 19, 0.774);
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 60px;
