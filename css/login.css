@@ -17,7 +17,7 @@ input{
     font-size: 15px;
 }
 /*------botão de de enviar-----*/
-button{
+.enviar{
     background-color:rgb(187, 118, 61) ;
     border: none;
     padding: 15px;
