@@ -1,11 +1,11 @@
 /*-------bloco de fundo do cadastro*/
-div {
+.tela{
     background-color: rgba(153, 106, 19, 0.774);
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 80px;
+    padding: 60px;
     border-radius: 15px;
     color: white;
 }
@@ -17,7 +17,7 @@ input{
     font-size: 15px;
 }
 /*------botão de de enviar-----*/
-button{
+.enviar{
     background-color:rgb(187, 118, 61) ;
     border: none;
     padding: 15px;
