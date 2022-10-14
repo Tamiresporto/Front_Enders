@@ -140,13 +140,13 @@ section .card .about{
     margin-top: 20px;
 }
 .card .b1 button{
-    background: #f3a323;
+    background: #23272ee3;
 }
 .card .b2 button{
-    background: #14bff2;
+    background: #23272ee3;
 }
 .card .b3 button{
-    background: #f337e2;
+    background: #23272ee3;
 }
 .card .button button{
     outline: none;
