@@ -1,151 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Contato</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
-    <link href="css/contato.css" rel="stylesheet">
-</head>
-<body>
+<html lang="pt-br">
+    <head>
+        <title>AssinaTour - Nossa Equipe</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/contato copy.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
 
-    <!--HEADER - MENU PADRONIZADO -->
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark .bg-dark.bg-gradient">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html" >AssinaTour</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Equipe</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Planos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Basic</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Standard</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Extreme</a></li>
+        <!--HEADER - MENU PADRONIZADO -->
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark .bg-dark.bg-gradient">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html" >AssinaTour</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Equipe</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Planos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Basic</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Standard</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Extreme</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">O Rio como nunca visto antes!</a>
+                      </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">O Rio como nunca visto antes!</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <button class="btn btn-outline-success" type="submit"><a href="cadastro.html">Cadastre-se</a></button>
-                  <button class="btn btn-outline-success" type="submit"><a href="login.html">Login</a></button>
-                </form>
-              </div>
-            </div>
-          </nav>
-      </header>
+                    <form class="d-flex" role="search">
+                      <button class="btn btn-outline-success" type="submit"><a href="cadastro.html">Cadastre-se</a></button>
+                      <button class="btn btn-outline-success" type="submit"><a href="login.html">Login</a></button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- FIM DA HEADER -->
+        
+        <!--MAIN-->
+        <main>
 
-      <!-- FIM DA HEADER -->
-      
-       <!--MAIN-->
-       <main>
+            <!--SECTION DOS CARDS -->
+            <section>
+                <div class="swiper mySwiper container">
 
-        <h2>Conheça a equipe AssinaTour!</h2>
-        <!--SECTION DOS CARDS -->
-            <section class="contato-container">
+                    <div class="swiper-wrapper content">
+                        <!-- CARD TAMIRES -->
+                        
+                            <div class="swiper-slide card">
+                                <div class="box1"></div>
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
+                                    </div>
+                                    <div class="media-icons">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">Tamires Porto</span>
+                                        <span class="profession">Co-facilitara</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="about">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                                    </div>
+                                    <div class="button b1">
+                                        <button class="aboutMe">Sobre mim</button>
+                                        <button class="hireMe"> Contato</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                
+                            <!-- CARD ESTER -->
+                            <div class="swiper-slide card">
+                                <div class="box2"></div>
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="https://media-exp1.licdn.com/dms/image/D4D35AQGzlYo2j3Ky-A/profile-framedphoto-shrink_800_800/0/1663681022721?e=1666353600&v=beta&t=1015aWCqpmzpUoeydP_fh0VDQkvQX0jt-pA6G2Vqyrg" alt="Gestora de Conhecimento">
+                                    </div>
+                                    <div class="media-icons">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">Ester Ramos</span>
+                                        <span class="profession">Gestora de Conhecimento</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="about">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                                    </div>
+                                    <div class="button b1">
+                                        <button class="aboutMe">Sobre mim</button>
+                                        <button class="hireMe"> Contato</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- CARD TAMIRES -->
-                <div class="card">
-                    <div class="card__img">
-                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D03AQEREIrSALh-4Q/profile-displayphoto-shrink_800_800/0/1665108129172?e=1671062400&v=beta&t=dmMO1RiKolmLBvESh9QEUMXAzibzY7BCKsilr1pF0mA" alt="Co-facilitadora">
-                    </div>
-                    <div class="card__data">
-                        <h3>Tamires Porto</h3>
-                        <div class="card__descripition">
-                            <small class="card__small">Co-facilitara</small>
+                            <!-- CARD MAICON -->
+                            <div class="swiper-slide card">
+                                <div class="box3"></div>
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="https://media-exp1.licdn.com/dms/image/D4D35AQGnvWExojOP4Q/profile-framedphoto-shrink_800_800/0/1664935461670?e=1666303200&v=beta&t=ExlbbGePdCwo2rJ-hWi9Ko6jvT4oHkjg61mbJzjs-b0" alt="Gestor de Pessoas">
+                                    </div>
+                                    <div class="media-icons">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">Maicon Brendon</span>
+                                        <span class="profession">Gestor de Pessoas</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="about">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                                    </div>
+                                    <div class="button b3">
+                                        <button class="aboutMe">About Me</button>
+                                        <button class="hireMe">Hire Me</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- CARD BRUNA -->
+                        <div class="swiper-slide card">
+                            <div class="box3"></div>
+                            <div class="card-content">
+                                <div class="image">
+                                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHnmL8ocCet-w/profile-displayphoto-shrink_800_800/0/1653478079669?e=1671062400&v=beta&t=E5F6DWrsDB6OvlgYVE4_96n658tc2PIpMPmui7K0x1Q" alt="Colaboradora">
+                                </div>
+                                <div class="media-icons">
+                                    <i class="fab fa-facebook"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="name-profession">
+                                    <span class="name">Bruna Lima</span>
+                                    <span class="profession">Colaboradora</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                                </div>
+                                <div class="button b3">
+                                    <button class="aboutMe">About Me</button>
+                                    <button class="hireMe">Hire Me</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD SILVIA -->
+                        <div class="swiper-slide card">
+                            <div class="box3"></div>
+                            <div class="card-content">
+                                <div class="image">
+                                    <img src="https://media-exp1.licdn.com/dms/image/D4D03AQHVT8Gn0Paf5g/profile-displayphoto-shrink_800_800/0/1664323204528?e=1671062400&v=beta&t=HbxyFyeMVAiJmrORVUG0MdxmBJZ63qDCk3j2_tat17Y" alt="Colaboradora">
+                                </div>
+                                <div class="media-icons">
+                                    <i class="fab fa-facebook"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="name-profession">
+                                    <span class="name">Silvia Corrêa</span>
+                                    <span class="profession">Colaboradora</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="about">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis sequi, nam tenetur magni.</p>
+                                </div>
+                                <div class="button b3">
+                                    <button class="aboutMe">About Me</button>
+                                    <button class="hireMe">Hire Me</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <i class='bx bxl-github card__cart'></i>
-                
                 </div>
-
-                <!-- CARD ESTER -->
-                <div class="card">
-                    <div class="card__img">
-                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D35AQGzlYo2j3Ky-A/profile-framedphoto-shrink_800_800/0/1663681022721?e=1666303200&v=beta&t=1X2Y5zGjaMQG-apGAZ9Ticazs8-LKECt550aQe_30Ms" alt="Co-facilitadora">
-                    </div>
-                    <div class="card__data">
-                        <h3>Ester Ramos</h3>
-                        <div class="card__descripition">
-                            <small class="card__small">Gestora de Conhecimento</small>
-                        </div>
-                    </div>
-                   
-                    <i class='bx bxl-github card__cart'></i>
-                </div>
-
-                <!-- CARD MAICON -->
-                <div class="card">
-                    <div class="card__img">
-                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D35AQGnvWExojOP4Q/profile-framedphoto-shrink_800_800/0/1664935461670?e=1666303200&v=beta&t=ExlbbGePdCwo2rJ-hWi9Ko6jvT4oHkjg61mbJzjs-b0" alt="Co-facilitadora">
-                    </div>
-                    <div class="card__data">
-                        <h3>Maicon Brendon</h3>
-                        <div class="card__descripition">
-                            <small class="card__small">Gestor de Pessoas</small>
-                        </div>
-                    </div>
-                    
-                    <i class='bx bxl-github card__cart'></i>
-                </div>
-
-                <!-- CARD BRUNA -->
-                <div class="card">
-                    <div class="card__img">
-                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/C4E03AQHnmL8ocCet-w/profile-displayphoto-shrink_800_800/0/1653478079669?e=1671062400&v=beta&t=E5F6DWrsDB6OvlgYVE4_96n658tc2PIpMPmui7K0x1Q" alt="Co-facilitadora">
-                    </div>
-                    <div class="card__data">
-                        <h3>Bruna Lima</h3>
-                        <div class="card__descripition">
-                            <small class="card__small">Colaboradora</small>
-                        </div>
-                    </div>
-                    
-                    <i class='bx bxl-github card__cart'></i>
-                </div>
-
-                <!-- CARD SILVIA -->
-                <div class="card">
-                    <div class="card__img">
-                        <img class="card__img" src="https://media-exp1.licdn.com/dms/image/D4D03AQHVT8Gn0Paf5g/profile-displayphoto-shrink_800_800/0/1664323204528?e=1671062400&v=beta&t=HbxyFyeMVAiJmrORVUG0MdxmBJZ63qDCk3j2_tat17Y" alt="Co-facilitadora">
-                    </div>
-                    <div class="card__data">
-                        <h3>Silvia Corrêa</h3>
-                        <div class="card__descripition">
-                            <small class="card__small">Colaboradora</small>
-                        </div>
-                    </div>
-                   
-                    
-                    <i class='bx bxl-github card__cart'></i>
-                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
 
             </section>
 
-    </main>
-    <!--FIM DA MAIN-->
-    
-</body>
+        </main>
+        <!--FIM DA MAIN-->
+        
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="scripts/contato.js"></script>
+    </body>
 </html>
