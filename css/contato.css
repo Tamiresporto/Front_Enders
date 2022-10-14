@@ -1,0 +1,170 @@
+/*---------------VARIABLES CSS-------------------*/
+:root {
+    --header-height: 4.5rem;
+
+    /*---------------COLLORS -------------------*/
+    /*---------------COLLORS -------------------*/
+    --first-color: #23272ee3;
+    --first-color_alt: #1d7a37;
+    --first-color_alt_light: #23272ee3;
+    --light-color: #ffffff;
+    --text-color: #171f07;
+    --body-color: #ffffff;
+    --container-color: #f1fcdc;
+
+    /*---------------FONT  AND TYPOGRAPHY-------------------*/
+    --body-font: "Lato", sans-serif;
+    --font-logo: 'Secular One', sans-serif;
+    --font-logoFit: 'Blaka Ink', cursive;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+
+    /*---------------FONT WEIGHT-------------------*/
+    --font-light: 300;
+    --font-medium: 400;
+    --font-bold: 700;
+
+    /*---------------MARGINS-------------------*/
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    /*---------------Z INDEXS-------------------*/
+    --Z-fixed: 100;
+    --z-tooltip: 10;
+}
+
+
+
+/*---------------BASE-------------------*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*---------- CARDS ------------*/
+.contato-container {
+    margin: auto;
+    display: block;
+    padding: 5rem 5rem;
+    justify-content: center;
+    
+   
+}
+
+.card {
+    position: relative;
+    display: inline-flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-bottom: 3%;
+    transition: 0.4s;
+    width: 16%;
+    height: 350px;
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 8px 8px 0 0;
+}
+
+.card__data {
+    height: 6rem;
+    margin: auto;
+}
+
+.card__small {
+    margin: auto;
+}
+
+.card__data h3 {
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* TAMANHO DA IMAGEM */
+.card__img {
+    width: 100%;
+}
+
+.card__data .card__descripition {
+    text-align: center;
+}
+
+.card__data small {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card__preci {
+    margin-top: var(--mb-3);
+}
+
+.card__preci span {
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+.card__cart {
+    
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-size: 2rem;
+    color: white;
+    background-color: #23272ee3;
+    border-radius: 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card__cart:hover {
+    color: #23272ee3;
+    background-color: white;
+}
