@@ -9,10 +9,7 @@ header nav {
   background-color: rgba(238, 238, 238, 0.945);
 }
 
-.py-5 {
-  padding-top: 150px!important;
-  padding-bottom: 1px!important;
-}
+
 .py-4 {
   padding-top: 15px!important;
   padding-bottom: 1px!important;
@@ -25,6 +22,6 @@ header nav {
 }
 a{
   font-weight: 500;
-  color: rgb(4, 56, 15)!important;
+  color: rgb(1, 43, 10)!important;
   text-decoration: none;
 }
