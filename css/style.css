@@ -23,3 +23,8 @@ header nav {
   margin-left: 25%;
   margin-bottom: 0px!important;
 }
+a{
+  font-weight: 500;
+  color: rgb(4, 56, 15)!important;
+  text-decoration: none;
+}
