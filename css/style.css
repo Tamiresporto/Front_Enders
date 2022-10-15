@@ -19,4 +19,7 @@ header nav {
   margin-bottom: 10px!important;
 }
 
-
+.offset-md-3 {
+  margin-left: 25%;
+  margin-bottom: 0px!important;
+}
