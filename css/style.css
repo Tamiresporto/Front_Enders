@@ -2,9 +2,12 @@
     margin-inline-end: 5px;
 }
 header nav {
-    height: 10%;
+    height: 12%;
   }
 
+.navbar {
+  background-color: rgba(238, 238, 238, 0.945);
+}
 
 
 

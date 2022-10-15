@@ -17,6 +17,13 @@ header{
     margin-bottom: 80px;
 }
 
+header nav {
+  height: 12%;
+}
+
+.navbar {
+background-color: rgba(238, 238, 238, 0.945);
+}
 
 
 
