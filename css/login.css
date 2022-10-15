@@ -29,3 +29,8 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+a{
+  font-weight: 500;
+  color: rgb(4, 56, 15)!important;
+  text-decoration: none;
+}
