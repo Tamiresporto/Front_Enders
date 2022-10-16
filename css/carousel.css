@@ -116,9 +116,6 @@ main .container-img section:hover img{
       display: none;
   }
 
-  header{
-      height: 9%;
-  }
 
   header nav{
       padding: 0 30px;
