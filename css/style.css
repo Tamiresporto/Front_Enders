@@ -6,7 +6,7 @@ header nav {
   }
 
 .navbar {
-  background-color: rgba(238, 238, 238, 0.945);
+  background-color: rgba(10, 10, 10, 0.945);
 }
 
 
@@ -21,7 +21,8 @@ header nav {
   margin-bottom: 0px!important;
 }
 a{
-  font-weight: 500;
-  color: rgb(1, 43, 10)!important;
+  font-weight: 500!important;
+  color: rgb(255, 255, 255)!important;
   text-decoration: none;
+  font-size: larger!important;
 }
