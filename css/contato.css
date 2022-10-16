@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #212529;
+    background-color: #0a0a0af1;
 }
 
 /* DIV DO TITULO */
@@ -66,7 +66,7 @@ hr {
     z-index: 100;
 }
 .swiper{
-    width: 950px;
+    width: 850px;
     
 }
 section{
@@ -99,7 +99,7 @@ section .card .image img{
     height: 30%;
     border-radius: 20px 20px 0 0;
     background: linear-gradient(106.32deg, #0dcaf0 35%,
-    #20c997 145%);
+    #047dc3 145%);
 }
 .box2{
     position: absolute;
@@ -107,7 +107,7 @@ section .card .image img{
     height: 30%;
     border-radius: 20px 20px 0 0;
     background: linear-gradient(106.32deg, #0dcaf0 35%,
-    #20c997 145%);
+    #047dc3 145%);
 }
 
 .box3{
@@ -116,7 +116,7 @@ section .card .image img{
     height: 30%;
     border-radius: 20px 20px 0 0;
     background: linear-gradient(106.32deg, #0dcaf0 35%,
-    #20c997 145%);
+    #047dc3 145%);
 }
 .card .media-icons{
     position: absolute;
