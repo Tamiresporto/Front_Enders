@@ -6,10 +6,12 @@ body{
   position: relative;
 }
 .py-5 {
-  padding-top: 1750px!important;
+  margin-top: 1750px!important;
   padding-bottom: 1px!important;
 }
-
+.fotteer1{
+  width: 150%;
+}
 main{
   width: 100%;
   height: 110%;
