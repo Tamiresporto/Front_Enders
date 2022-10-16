@@ -36,9 +36,18 @@ body{
     
 }
 
+/* DIV MENSAGEM SOBRE A EQUIPE */
+
+.frase-meio {
+    background-color: rgba(238, 238, 238, 0.945);
+    color: #212529;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
 /* CONTAINER DOS CARDS */
-
-
 
 .card{
     position: relative;
