@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial';
+    
 }
 body{
-    display: flex;
+    display: flexbox;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -14,24 +15,31 @@ body{
 
 /* DIV DO TITULO */
 
+.title {
+    margin-top: 50px;
+}
+
 .title h1 {
     font-size: 50px;
-    font-family: 'Arial';
+    
     font-weight: 800;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 6px;
     margin-bottom: 1%;
 }
 
 #subtitulo {
     font-size: 16px;
     text-align: center;
-    font-family: 'Arial';
+    
     margin-top: 0.5%;
     
 }
 
 /* CONTAINER DOS CARDS */
+
+
+
 .card{
     position: relative;
     background-color: #fff;
@@ -56,9 +64,10 @@ body{
 section{
     position: relative;
     width: 1075px;
+    margin: auto;
     margin-top: 1%;
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 section .card .image{
@@ -200,4 +209,8 @@ section .card {
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
     color: #23272ee3;
+}
+
+.container {
+    margin-top: 150px;
 }
