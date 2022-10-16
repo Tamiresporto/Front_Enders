@@ -22,10 +22,11 @@ body{
 .title h1 {
     font-size: 70px;
     color: #212529;
-    font-weight: 200;
+    font-weight: bold;
     text-align: center;
     margin-top: 6px;
     margin-bottom: 1%;
+    text-transform: uppercase;
 }
 
 #subtitulo {
@@ -39,13 +40,38 @@ body{
 /* DIV MENSAGEM SOBRE A EQUIPE */
 
 .frase-meio {
-    background-color: rgba(238, 238, 238, 0.945);
+    
     color: #212529;
     display: inline-flex;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
 }
+
+.frase-meio div {
+    width: 40%;
+    align-content: center;
+    margin-right: 10%;
+}
+
+.p {
+    margin-right: 0px;
+}
+
+.frase-meio h2 {
+    font-size: 34px;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.frase-meio p {
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+
 
 /* CONTAINER DOS CARDS */
 
