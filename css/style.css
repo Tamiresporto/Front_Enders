@@ -2,7 +2,7 @@
     margin-inline-end: 5px;
 }
 header nav {
-    height: 12%;
+    height: 15%;
   }
 
 .navbar {
@@ -24,7 +24,6 @@ a{
   font-weight: 500!important;
   color: rgb(255, 255, 255)!important;
   text-decoration: none;
-  font-size: larger!important;
 }
 form h5 {
   color:#6c757d;
