@@ -144,12 +144,12 @@ section .card .image img{
 }
 .name-profession .name{
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 500;
     color: #222;
 }
 .name-profession .profession{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     color: #333;
 }
 .card .rating{
@@ -174,6 +174,7 @@ section .card {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
 }
 .card .b1 button{
     background: #0dcaf0;
@@ -190,7 +191,7 @@ section .card {
     color: #fff;
     padding: 8px 22px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
