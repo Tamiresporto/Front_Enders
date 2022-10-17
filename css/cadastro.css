@@ -1,11 +1,34 @@
+
+/* TRAZENDO FONTS */
+@font-face {
+    font-family: Oitobit;
+    src: url(../font/8-BIT\ WONDER.TTF);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt;
+    src: url(../font/superstar_memesbruh03.ttf);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt2;
+    src: url(../font/superstarorig_memesbruh03.ttf);
+  }
+  
+  /* DECLARANDO VARIÁVEIS DAS FONTS */
+  :root {
+    --font-doistexto: 'Oitobittxt2'; 
+    --font-titulo: 'Oitobit';
+    --font-texto: 'Oitobit-txt'
+    
+  }
+.h1{
+    font-family: var(--font-titulo);
+}
 .form{
     margin-inline: 400px;
-}
+    margin-top: 150px;
 
-.bg-light{
-    margin-top: 250px;
-    height: 60%;
-    padding: 12px 20px;
 }
 
 /*-----Responsividade-------*/
