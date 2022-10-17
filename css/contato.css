@@ -45,7 +45,7 @@ body{
 }
 
 .title h1 {
-    font-size: 100px;
+    font-size: 80px!important;
     color: #0dcaf0;
     font-weight: bold;
     text-align: center;
@@ -116,9 +116,14 @@ section{
 section .card .image{
     height: 120px;
     width: 120px;
-
     padding: 2px;
-    background: #fff;
+    border-width: 4px;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-width: 2;
+    border-image-slice: 2;
+    border-image-outset: 2;
+    background-color: transparent;
+    border-radius: 0;
     box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.25);
 }
 

@@ -23,6 +23,7 @@
   
 }
 
+
 .navbar-brand{
   font-size: 35px;
 }
@@ -128,7 +129,7 @@ h3, h4, h5, .titulos-submenores {
   font-size: 25px;
 }
 #img {
-  width: 600px;
+  width: 500px;
 }
 
 #img-dois {
