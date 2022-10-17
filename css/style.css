@@ -26,3 +26,9 @@ a{
   text-decoration: none;
   font-size: larger!important;
 }
+form h5 {
+  color:#6c757d;
+}
+form p {
+  color:#6c757d;
+}
