@@ -45,14 +45,13 @@ main .container-img section h2, main .container-img section p{
   transition-duration: .7s;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  text-transform: uppercase;
-  font-size: 50px;
+  font-size: 100px;
   color: #f0f0f0;
 }
 
 main .container-img section p{
   text-align: center;
-  font-size: 12px;
+  font-size: 24px;
   top: 60%;
   text-transform: none;
   width: 60%;
