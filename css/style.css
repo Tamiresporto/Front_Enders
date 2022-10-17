@@ -20,7 +20,9 @@
   
 }
 
-
+.navbar-brand{
+  font-size: 35px;
+}
 
 .botao1 {
     margin-inline-end: 5px;
