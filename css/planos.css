@@ -1,0 +1,45 @@
+.botao1 {
+    margin-inline-end: 10px;
+}
+.main {
+    margin-right: 180px;
+    margin-left: 180px;
+}
+.table-responsive {
+    margin-right: 180px;
+    margin-left: 180px;
+}
+.row {
+    margin: none;
+}
+.navbar {
+  background-color: rgba(10, 10, 10, 0.945);
+}
+html body{
+  background-color: #0a0a0af1!important;
+  background-image: none;
+}
+
+
+header{
+    margin-bottom: 140px;
+}
+
+header nav {
+  height: 15%;
+}
+
+.py-5 {
+  padding-top: 150px!important;
+  padding-bottom: 1px!important;
+}
+.py-4 {
+  padding-top: 15px!important;
+  padding-bottom: 1px!important;
+  margin-bottom: 10px!important;
+}
+a{
+  font-weight: 500;
+  color: rgb(4, 56, 15)!important;
+  text-decoration: none;
+}
