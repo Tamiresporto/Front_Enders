@@ -50,6 +50,9 @@ header nav {
   margin-left: 25%;
   margin-bottom: 0px!important;
 }
+.card-tittle{
+  font-family: var(--font-titulo);
+}
 a{
   font-weight: 500!important;
   color: rgb(255, 255, 255)!important;
@@ -106,9 +109,10 @@ a, p {
 h1{
   color: #0dcaf0;
   font-size: 40px!important;
+  
 }
 
-h1, h2, span, h3, h4, h5, .titulos-submenores {
+h3, h4, h5, .titulos-submenores {
   font-family: var(--font-doistexto);
 }
 
