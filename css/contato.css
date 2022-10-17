@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #0a0a0af1;
 }
 
 /* DIV DO TITULO */
@@ -21,24 +21,32 @@ body{
 
 .title h1 {
     font-size: 70px;
-    color: #212529;
-    font-weight: 200;
+    color: #0dcaf0;
+    font-weight: bold;
     text-align: center;
     margin-top: 6px;
     margin-bottom: 1%;
+    text-transform: uppercase;
 }
 
 #subtitulo {
+    width: 60%;
     font-size: 16px;
     text-align: center;
+    margin: auto;
     color: #6c757d;
     margin-top: 0.5%;
     
 }
 
+hr {
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+
 /* CONTAINER DOS CARDS */
-
-
 
 .card{
     position: relative;
@@ -58,7 +66,7 @@ body{
     z-index: 100;
 }
 .swiper{
-    width: 950px;
+    width: 850px;
     
 }
 section{
@@ -90,16 +98,16 @@ section .card .image img{
     width: 100%;
     height: 30%;
     border-radius: 20px 20px 0 0;
-    background: linear-gradient(106.32deg, #198754 35%,
-    #20c997 145%);
+    background: linear-gradient(106.32deg, #0dcaf0 35%,
+    #047dc3 145%);
 }
 .box2{
     position: absolute;
     width: 100%;
     height: 30%;
     border-radius: 20px 20px 0 0;
-    background: linear-gradient(106.32deg, #198754 35%,
-    #20c997 145%);
+    background: linear-gradient(106.32deg, #0dcaf0 35%,
+    #047dc3 145%);
 }
 
 .box3{
@@ -107,8 +115,8 @@ section .card .image img{
     width: 100%;
     height: 30%;
     border-radius: 20px 20px 0 0;
-    background: linear-gradient(106.32deg, #198754 35%,
-    #20c997 145%);
+    background: linear-gradient(106.32deg, #0dcaf0 35%,
+    #047dc3 145%);
 }
 .card .media-icons{
     position: absolute;
@@ -136,12 +144,12 @@ section .card .image img{
 }
 .name-profession .name{
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 500;
     color: #222;
 }
 .name-profession .profession{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     color: #333;
 }
 .card .rating{
@@ -166,15 +174,16 @@ section .card {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
 }
 .card .b1 button{
-    background: #198754;
+    background: #0dcaf0;
 }
 .card .b2 button{
-    background: #198754;
+    background: #0dcaf0;
 }
 .card .b3 button{
-    background: #198754;
+    background: #0dcaf0;
 }
 .card .button button{
     outline: none;
@@ -182,7 +191,7 @@ section .card {
     color: #fff;
     padding: 8px 22px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -199,16 +208,16 @@ section .card {
     height: 15px;
     width: 15px;
     border-radius: 25px;
-    background: #198754;
+    background: #0dcaf0;
 }
 .swiper-button-next, .swiper-button-prev{
     opacity: 0.7;
-    color: #23272ee3;
+    color: white;
     transition: all 0.3s ease;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
-    color: #23272ee3;
+    color: white;
 }
 
 .container {
