@@ -51,8 +51,14 @@ a{
   color: rgb(255, 255, 255)!important;
   text-decoration: none;
 }
+h5{
+  font-family: var(--font-texto)!important;
+  font-size: 30px;
+}
 form h5 {
-  color: #6c757d!important;
+  font-size: 40px;
+  color: #0dcaf0!important;
+  font-family: var(--font-texto);
 }
 form p {
   color:#6c757d!important;
@@ -89,7 +95,6 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
   font-family: var(--font-texto);
   font-size: 20px;
 }
-
 #img {
   width: 600px;
   
