@@ -22,50 +22,122 @@
     --font-texto: 'Oitobit-txt'
     
   }
-.h1{
-    font-family: var(--font-titulo);
-}
-.form{
-    margin-inline: 400px;
-    margin-top: 150px;
-
-}
-
-/*-----Responsividade-------*/
-@media screen and (max-width: 1330px) {
-    .form-image {
-    .container {
-        width: 50%;
-    }
-    .form {
-        width: 100%;
-    }
-}
+body{
+    background-color: #0a0a0af1;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 1064px) {
-    .container {
-        width: 90%;
-        height: auto;
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.titulo{
+    margin-bottom: 5%;
+    font-family: var(--font-titulo)!important;
+    text-align: center;
+    font-size: 2rem;
+}
+.explicacao{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family:var(--font-texto);
+}
+
+.form-label{
+    font-family: var(--font-texto);
+    font-size: 1rem;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.row{
+    width: 50rem;
+}
+
+
+input{
+    text-align: center;
+    font-family: '%%';
+    font-size:smaller;
+}
+
+input::placeholder{
+    font-size: 0.7rem;
+}
+
+main{
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#buscaCep{
+    margin-top: 2em;
+}
+
+.envia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-style {
+    font-family: '&&&';
+    font-size: 1.1rem;
+    color: var(--dark) !important;
+}
+
+.btn-style:focus {
+    box-shadow: none !important;
+}
+
+.alertaDiv{
+    display: none;
+    justify-content: center;
+}
+
+.alertaErro {
+    color: red;
+    text-align: center;
+    font-size: 1.70rem;
+    font-family:'rainyhearts';
+}
+@media (max-width: 768px) {
+    .row{
+        width: 30em;
     }
-    .input-group {
-        flex-direction: column;
-        z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-    }
-    .gender-inputs {
-        margin-top: 2rem;
-    }
-    .gender-group {
-        flex-direction: column;
-    }
-    .gender-title h6 {
-        margin: 0;
-    }
-    .gender-input {
-        margin-top: 0.5rem;
+}
+
+@media(max-width:500px) {
+    .row{
+        width: 20rem;
     }
 }
