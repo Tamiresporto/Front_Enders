@@ -1,125 +1,46 @@
-@import url('file:///C:/Users/Admin/Downloads/undraw_beach_day_cser.svg');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-.formulario{
-    background-color: rgba(153, 106, 19, 0.363);
-}
-.container {
-    width: 88%;
-    height: 80vh;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(153, 106, 19, 0.774);
-}
 
-/*--------imagem do formulário------*/
-.form-image {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: rgba(153, 106, 19, 0.363);
-   padding: 1rem;
+/* TRAZENDO FONTS */
+@font-face {
+    font-family: Oitobit;
+    src: url(../font/8-BIT\ WONDER.TTF);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt;
+    src: url(../font/superstar_memesbruh03.ttf);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt2;
+    src: url(../font/superstarorig_memesbruh03.ttf);
+  }
+  
+  /* DECLARANDO VARIÁVEIS DAS FONTS */
+  :root {
+    --font-doistexto: 'Oitobittxt2'; 
+    --font-titulo: 'Oitobit';
+    --font-texto: 'Oitobit-txt'
+    
+  }
+.h1{
+    font-family: var(--font-titulo);
 }
-.form-image img {
-    width: 31rem;
-}
-.form-header{
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
+.form{
+    margin-inline: 400px;
+    margin-top: 150px;
 
-.form-header h1::after{
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: rgb(253, 145, 4);
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
 }
-.input-group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-}
-
-.input-box input:hover {
-    background-color: rgba(253, 145, 4, 0.308);
-} 
-.input-box input:focus-visible {
-    outline: 1px solid  rgba(253, 145, 4, 0.5);
-}
-
-.input-box label::placeholder {
-    color: rgba(253, 145, 4, 0.308);
-}
-
-.gender-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 0.5rem;
-}
-
-.gender-input {
-    display: flex;
-    align-items: center;
-}
-.gender-input input {
-    margin-right: 0.35rem;
-}
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-
-/*cadastrar-----*/
-.cada-button button {
-    width: 100%;
-    margin-top: 1.0rem;
-    border: none;
-    background-color: rgba(253, 145, 4, 0.308);
-    padding: 0.62rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.cada-button button:hover{
-    background-color: rgba(253, 145, 4, 0.856);
-}
-.cada-button button a{
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-size: 0.93rem;
-    font-weight: 500;
-    color: #fff;
-}
-
 
 /*-----Responsividade-------*/
 @media screen and (max-width: 1330px) {
     .form-image {
-        display: none;
-    }
     .container {
         width: 50%;
     }
     .form {
         width: 100%;
     }
+}
 }
 
 @media screen and (max-width: 1064px) {

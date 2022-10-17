@@ -1,3 +1,37 @@
+/* TRAZENDO FONTS */
+@font-face {
+  font-family: Oitobit;
+  src: url(../font/8-BIT\ WONDER.TTF);
+}
+
+@font-face {
+  font-family: Oitobit-txt;
+  src: url(../font/superstar_memesbruh03.ttf);
+}
+
+@font-face {
+  font-family: Oitobit-txt2;
+  src: url(../font/superstarorig_memesbruh03.ttf);
+}
+
+/* DECLARANDO VARIÁVEIS DAS FONTS */
+:root {
+  --font-doistexto: 'Oitobittxt2'; 
+  --font-titulo: 'Oitobit';
+  --font-texto: 'Oitobit-txt'
+  
+}
+.pricing-header h1 {
+  font-family: var(--font-texto);
+  font-size: 80px;
+}
+
+.navbar-brand{
+  font-size: 35px!important;
+}
+.nav-item {
+  font-size: 20px;
+}
 .botao1 {
     margin-inline-end: 10px;
 }
@@ -9,9 +43,7 @@
     margin-right: 180px;
     margin-left: 180px;
 }
-.row {
-    margin: none;
-}
+
 .navbar {
   background-color: rgba(10, 10, 10, 0.945);
 }
@@ -20,6 +52,13 @@ html body{
   background-image: none;
 }
 
+h5 {
+  font-size: 25px;
+}
+
+a, p {
+  font-family: var(--font-texto);
+}
 
 header{
     margin-bottom: 140px;
@@ -30,6 +69,7 @@ header nav {
 }
 
 .py-5 {
+  margin-inline: -135px;
   padding-top: 150px!important;
   padding-bottom: 1px!important;
 }
@@ -38,8 +78,21 @@ header nav {
   padding-bottom: 1px!important;
   margin-bottom: 10px!important;
 }
+
 a{
-  font-weight: 500;
-  color: rgb(4, 56, 15)!important;
+  font-weight: 500!important;
+  color: rgb(255, 255, 255)!important;
   text-decoration: none;
+}
+h5{
+  font-family: var(--font-texto)!important;
+  font-size: 30px;
+}
+form h5 {
+  font-size: 40px;
+  color: #0dcaf0!important;
+  font-family: var(--font-texto);
+}
+form p {
+  color:#6c757d!important;
 }
