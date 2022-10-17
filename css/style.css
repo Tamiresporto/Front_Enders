@@ -111,6 +111,9 @@ h1{
   font-size: 40px!important;
   
 }
+#pic-logo{
+  width: 103px;
+}
 
 h3, h4, h5, .titulos-submenores {
   font-family: var(--font-doistexto);
