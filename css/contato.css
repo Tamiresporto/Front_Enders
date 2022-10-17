@@ -4,6 +4,30 @@
     box-sizing: border-box;
     
 }
+
+@font-face {
+    font-family: Oitobit;
+    src: url(../font/8-BIT\ WONDER.TTF);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt;
+    src: url(../font/superstar_memesbruh03.ttf);
+  }
+  
+  @font-face {
+    font-family: Oitobit-txt2;
+    src: url(../font/superstarorig_memesbruh03.ttf);
+  }
+  
+  :root {
+    --font-doistexto: 'Oitobittxt2'; 
+    --font-titulo: 'Oitobit';
+    --font-texto: 'Oitobit-txt'
+    
+  }
+
+
 body{
     display: flexbox;
     font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
@@ -20,12 +44,15 @@ body{
 }
 
 .title h1 {
-    font-size: 70px;
+    font-size: 100px;
     color: #0dcaf0;
     font-weight: bold;
     text-align: center;
     margin-top: 6px;
     margin-bottom: 1%;
+    text-transform: uppercase;
+    font-family: var(--font-texto);
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -36,6 +63,7 @@ body{
     margin: auto;
     color: #6c757d;
     margin-top: 0.5%;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     
 }
 
