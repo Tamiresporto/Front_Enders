@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Oitobit;
+  src: url(../font/8-BIT\ WONDER.TTF);
+}
+
+@font-face {
+  font-family: Oitobit-txt;
+  src: url(../font/superstar_memesbruh03.ttf);
+}
+
+@font-face {
+  font-family: Oitobit-txt2;
+  src: url(../font/superstarorig_memesbruh03.ttf);
+}
+
+:root {
+  --font-doistexto: 'Oitobittxt2'; 
+  --font-titulo: 'Oitobit';
+  --font-texto: 'Oitobit-txt'
+  
+}
+
+
+
 .botao1 {
     margin-inline-end: 5px;
 }
@@ -26,8 +50,47 @@ a{
   text-decoration: none;
 }
 form h5 {
-  color:#6c757d;
+  color: #6c757d!important;
 }
 form p {
-  color:#6c757d;
+  color:#6c757d!important;
+}
+
+.icon-footer {
+  color: white!important;
+}
+.container-img {
+  transition: all ease-in-out;
+}
+
+#titulo-foto {
+  font-family: var(--font-titulo);
+}
+
+a {
+  font-family: var(--font-texto);
+}
+
+h1, h2, span, h3, h4, h5, .titulos-submenores {
+  font-family: var(--font-doistexto);
+}
+
+.titulos-menores {
+  font-family: var(--font-texto);
+}
+
+.fw-normal, .btn {
+  font-family: var(--font-texto);
+  font-size: 40px;
+}
+
+#img {
+  width: 600px;
+  
+}
+
+#img-dois {
+  width: 400px;
+  margin-left: 5px;
+  
 }

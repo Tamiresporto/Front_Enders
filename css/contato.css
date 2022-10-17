@@ -51,6 +51,7 @@ hr {
 .card{
     position: relative;
     background-color: #fff;
+    border: none;
     border-radius: 20px;
     height: 360px;
     width: 296px;
@@ -91,7 +92,8 @@ section .card .image img{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #fff;
+    
+    
 }
 .box1{
     position: absolute;
