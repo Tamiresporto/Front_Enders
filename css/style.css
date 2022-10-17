@@ -84,3 +84,14 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
   font-family: var(--font-texto);
   font-size: 40px;
 }
+
+#img {
+  width: 600px;
+  
+}
+
+#img-dois {
+  width: 400px;
+  margin-left: 5px;
+  
+}
