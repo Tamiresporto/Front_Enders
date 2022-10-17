@@ -93,7 +93,7 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
 
 .fw-normal, .btn {
   font-family: var(--font-texto);
-  font-size: 20px;
+  font-size: 25px;
 }
 #img {
   width: 600px;
