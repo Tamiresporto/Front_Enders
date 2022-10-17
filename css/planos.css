@@ -43,9 +43,7 @@
     margin-right: 180px;
     margin-left: 180px;
 }
-.row {
-    margin: none;
-}
+
 .navbar {
   background-color: rgba(10, 10, 10, 0.945);
 }
@@ -71,6 +69,7 @@ header nav {
 }
 
 .py-5 {
+  margin-inline: -135px;
   padding-top: 150px!important;
   padding-bottom: 1px!important;
 }

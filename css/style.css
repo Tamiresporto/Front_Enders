@@ -103,6 +103,10 @@ a, p {
   font-family: var(--font-texto);
 }
 
+h1{
+  color: #0dcaf0;
+  font-size: 40px!important;
+}
 
 h1, h2, span, h3, h4, h5, .titulos-submenores {
   font-family: var(--font-doistexto);
