@@ -39,7 +39,7 @@ main .container-img section h2, main .container-img section p{
   position: absolute;
   z-index: 1;
   opacity: 0;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition-duration: .7s;
@@ -53,7 +53,7 @@ main .container-img section h2, main .container-img section p{
 main .container-img section p{
   text-align: center;
   font-size: 12px;
-  top: 90%;
+  top: 60%;
   text-transform: none;
   width: 60%;
 }

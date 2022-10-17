@@ -68,7 +68,11 @@ form p {
   font-family: var(--font-titulo);
 }
 
-a {
+.nav-item {
+  font-size: 25px;
+}
+
+a, p {
   font-family: var(--font-texto);
 }
 
@@ -82,7 +86,7 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
 
 .fw-normal, .btn {
   font-family: var(--font-texto);
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #img {
@@ -95,3 +99,4 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
   margin-left: 5px;
   
 }
+
