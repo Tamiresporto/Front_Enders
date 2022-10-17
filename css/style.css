@@ -1,3 +1,5 @@
+
+/* TRAZENDO FONTS */
 @font-face {
   font-family: Oitobit;
   src: url(../font/8-BIT\ WONDER.TTF);
@@ -13,6 +15,7 @@
   src: url(../font/superstarorig_memesbruh03.ttf);
 }
 
+/* DECLARANDO VARIÁVEIS DAS FONTS */
 :root {
   --font-doistexto: 'Oitobittxt2'; 
   --font-titulo: 'Oitobit';
@@ -21,7 +24,7 @@
 }
 
 
-
+/* HEADER */
 .botao1 {
     margin-inline-end: 5px;
 }
@@ -33,7 +36,7 @@ header nav {
   background-color: rgba(10, 10, 10, 0.945);
 }
 
-
+/* MAIN */
 .py-4 {
   padding-top: 15px!important;
   padding-bottom: 1px!important;
@@ -63,17 +66,34 @@ form p {
   transition: all ease-in-out;
 }
 
+/* fotos e titulos principais da main */
+
 #titulo-foto {
   font-family: var(--font-titulo);
 }
 
+#titulo-cyber {
+  font-family: var(--font-titulo);
+  font-size: 80px;
+}
+
+#subtitulo-cyber {
+  font-family: var(--font-texto);
+  font-size: 20px;
+}
+
 .nav-item {
+  font-size: 20px;
+}
+
+h5 {
   font-size: 25px;
 }
 
 a, p {
   font-family: var(--font-texto);
 }
+
 
 h1, h2, span, h3, h4, h5, .titulos-submenores {
   font-family: var(--font-doistexto);
@@ -90,12 +110,10 @@ h1, h2, span, h3, h4, h5, .titulos-submenores {
 
 #img {
   width: 600px;
-  
 }
 
 #img-dois {
   width: 400px;
   margin-left: 5px;
-  
 }
 
