@@ -32,6 +32,9 @@
 .nav-item {
   font-size: 20px;
 }
+#pic-logo{
+  width: 103px;
+}
 .botao1 {
     margin-inline-end: 10px;
 }
