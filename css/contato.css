@@ -294,3 +294,61 @@ section .card {
 .container {
     margin-top: 150px;
 }
+
+/* RESPONSIVIDADE - PAGE EQUIPE */
+
+@media only screen and (max-width: 1800px) {
+
+    body {
+        display: flexbox;
+        font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        transition: all 0.5s ease-in-out;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    body {
+        display: flexbox;
+        font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar {
+        width: 100%!important;
+    }
+
+    .title {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px!important;
+    }
+
+    .container-cards {
+        width: 70%;
+        margin: auto;
+    }
+
+    .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+        margin-top: 5px!important;
+        height: 1px;
+        width: 10%;
+    }
+
+
+}
+
+@media only screen and (max-width: 975px) {
+
+
+}
+
