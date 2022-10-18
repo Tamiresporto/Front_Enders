@@ -11,5 +11,5 @@ const picLogo = document.querySelector('#pic-logo')
 
 picLogo.addEventListener('click',()=>{
     location.assign("../index.html");
-    alert("Seu cadastro foi concluído com sucesso!")
-})
+}
+)
