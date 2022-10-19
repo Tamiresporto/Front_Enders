@@ -78,6 +78,10 @@ hr {
 
 /* CONTAINER DOS CARDS */
 
+.container-cards {
+    display: block;
+}
+
 .card{
     width: 19rem;
     border-width: 3px;
@@ -295,6 +299,12 @@ section .card {
     margin-top: 150px;
 }
 
+/* SECTION ESCONDIDA */
+.section-mobile {
+    display: none;
+}
+
+
 /* RESPONSIVIDADE - PAGE EQUIPE */
 
 @media only screen and (max-width: 1800px) {
@@ -349,6 +359,90 @@ section .card {
 
 @media only screen and (max-width: 975px) {
 
+    body {
+        
+        display: flexbox;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar {
+        width: 100%!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn {
+        width: 170px!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title {
+        margin: auto!important;
+        width: 120%;
+        margin-top: 50px!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title h1 {
+        font-size: 60px!important;
+    }
+
+    .container-cards {
+        width: 80%;
+        margin: auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+        margin-top: 5px!important;
+        height: 1px;
+        width: 10%;
+        transition: all 0.5s ease-in-out;
+    }
 
 }
 
+@media only screen and (max-width: 501px) { 
+
+    body {
+        display: flexbox;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* SECTION PRINCIPAL VAI DESAPARECER*/
+    .section-desktop {
+        display: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* SECTION ESCONDIDA VAI APARECER*/
+    .section-mobile {
+        display: block;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title {
+        margin: auto;
+    }
+
+
+    .title h1 {
+        font-size: 40px!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .subtitulo {
+        font-size: 16px!important;
+    }
+
+    .cards {
+        width: 10px!important;
+        margin: auto;
+    }
+
+    .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+        margin-top: 5px!important;
+        height: 1px;
+        width: 10%;
+    }
+
+}
