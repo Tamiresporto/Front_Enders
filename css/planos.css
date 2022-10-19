@@ -22,6 +22,7 @@
   
 }
 .card.mb-4.rounded-3.shadow-sm{
+  margin-inline: 60px;
   align-content: center;
   width: 400px;
 }
@@ -30,9 +31,7 @@
   font-size: 80px;
 }
 
-main{
-  margin-inline: 100px;
-}
+
 
 #pic-logo{
   width: 103px;
@@ -83,4 +82,32 @@ form h5 {
 }
 form p {
   color:#6c757d!important;
+}
+
+
+@media only screen and (max-width: 470px) {
+
+  .card.mb-4.rounded-3.shadow-sm{
+    margin-inline: 20px;
+    align-content: center;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .card.mb-4.rounded-3.shadow-sm{
+    margin-inline: 20px;
+    align-content: center;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+
+  .card.mb-4.rounded-3.shadow-sm{
+    margin-left: 40px;
+    align-content: center;
+    width: 280px;
+  }
 }
