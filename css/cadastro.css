@@ -114,10 +114,9 @@ main{
 }
 
 .alertaErro {
-    color: red;
+    color: red!important;
     text-align: center;
     font-size: 1.70rem;
-    font-family:'rainyhearts';
 }
 @media (max-width: 768px) {
     .row{
