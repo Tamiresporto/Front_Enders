@@ -21,31 +21,24 @@
   --font-texto: 'Oitobit-txt'
   
 }
+.card.mb-4.rounded-3.shadow-sm{
+  align-content: center;
+  width: 400px;
+}
 .pricing-header h1 {
   font-family: var(--font-texto);
   font-size: 80px;
 }
 
-.navbar-brand{
-  font-size: 35px!important;
-}
-.nav-item {
-  font-size: 20px;
-}
+
+
 #pic-logo{
   width: 103px;
 }
 .botao1 {
     margin-inline-end: 10px;
 }
-.main {
-    margin-right: 180px;
-    margin-left: 180px;
-}
-.table-responsive {
-    margin-right: 180px;
-    margin-left: 180px;
-}
+
 
 .navbar {
   background-color: rgba(10, 10, 10, 0.945);
@@ -71,16 +64,6 @@ header nav {
   height: 15%;
 }
 
-.py-5 {
-  margin-inline: -135px;
-  padding-top: 150px!important;
-  padding-bottom: 1px!important;
-}
-.py-4 {
-  padding-top: 15px!important;
-  padding-bottom: 1px!important;
-  margin-bottom: 10px!important;
-}
 
 a{
   font-weight: 500!important;
