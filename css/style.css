@@ -23,17 +23,17 @@
   
 }
 
+/* HEADER */
 
 .navbar-brand{
   font-size: 35px;
 }
 
-/* HEADER */
 .botao1 {
-    margin-inline-end: 5px;
+    margin-inline-end: 10px;
 }
 header nav {
-    height: 15%;
+    height: 100px;
   }
 
 .navbar {
@@ -41,24 +41,13 @@ header nav {
 }
 
 /* MAIN */
-.py-4 {
-  padding-top: 15px!important;
-  padding-bottom: 1px!important;
-  margin-bottom: 10px!important;
-}
 
-.offset-md-3 {
-  margin-left: 25%;
-  margin-bottom: 0px!important;
-}
-.card-tittle{
-  font-family: var(--font-titulo);
-}
+
 a{
-  font-weight: 500!important;
   color: rgb(255, 255, 255)!important;
   text-decoration: none;
 }
+/* FOOTER */
 h5{
   font-family: var(--font-texto)!important;
   font-size: 30px;
@@ -72,12 +61,10 @@ form p {
   color:#6c757d!important;
 }
 
-.icon-footer {
-  color: white!important;
+/* h5 {
+  font-size: 25px;
 }
-.container-img {
-  transition: all ease-in-out;
-}
+*/
 
 /* fotos e titulos principais da main */
 
@@ -99,18 +86,16 @@ form p {
   font-size: 20px;
 }
 
-h5 {
-  font-size: 25px;
-}
 
 a, p {
   font-family: var(--font-texto);
 }
 
 h1{
+  font-family: var(--font-texto);
   color: #0dcaf0;
-  font-size: 40px!important;
-  
+  font-size: 50px!important;
+  text-shadow: 2px 2px 4px black;
 }
 #pic-logo{
   width: 90px;
