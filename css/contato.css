@@ -40,16 +40,16 @@ body{
 
 /* DIV DO TITULO */
 
-.title {
-    margin-top: 50px;
+header {
+    margin-bottom: 200px;
 }
+
 
 .title h1 {
     font-size: 80px!important;
     color: #0dcaf0;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 1%;
     text-transform: uppercase;
     font-family: var(--font-texto);
@@ -409,8 +409,15 @@ section .card {
         transition: all 0.5s ease-in-out;
     }
 
-    .title {
-        width: 100%;
+    .title h1 {
+        width: 187%;
+        text-align: center;
+        
+    }
+
+    title p {
+        width: 187%!important;
+        margin-left: 30%;
     }
 
     /* SECTION PRINCIPAL VAI DESAPARECER*/
