@@ -40,16 +40,16 @@ body{
 
 /* DIV DO TITULO */
 
-.title {
-    margin-top: 50px;
+header {
+    margin-bottom: 200px;
 }
+
 
 .title h1 {
     font-size: 80px!important;
     color: #0dcaf0;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 1%;
     text-transform: uppercase;
     font-family: var(--font-texto);
@@ -77,6 +77,10 @@ hr {
 
 
 /* CONTAINER DOS CARDS */
+
+.container-cards {
+    display: block;
+}
 
 .card{
     width: 19rem;
@@ -295,6 +299,12 @@ section .card {
     margin-top: 150px;
 }
 
+/* SECTION ESCONDIDA */
+.section-mobile {
+    display: none;
+}
+
+
 /* RESPONSIVIDADE - PAGE EQUIPE */
 
 @media only screen and (max-width: 1800px) {
@@ -349,6 +359,90 @@ section .card {
 
 @media only screen and (max-width: 975px) {
 
+    body {
+        
+        display: flexbox;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar {
+        width: 100%!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn {
+        width: 170px!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title {
+        margin: auto!important;
+        width: 120%;
+        margin-top: 50px!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title h1 {
+        font-size: 60px!important;
+    }
+
+    .container-cards {
+        width: 80%;
+        margin: auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+        margin-top: 5px!important;
+        height: 1px;
+        width: 10%;
+        transition: all 0.5s ease-in-out;
+    }
 
 }
 
+@media only screen and (max-width: 501px) { 
+
+    body {
+        display: flexbox;
+        margin: auto!important;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .title h1 {
+        width: 187%;
+        text-align: center;
+        
+    }
+
+    title p {
+        width: 187%!important;
+        margin-left: 30%;
+    }
+
+    /* SECTION PRINCIPAL VAI DESAPARECER*/
+    .section-desktop {
+        display: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* SECTION ESCONDIDA VAI APARECER*/
+    .section-mobile {
+        display: block;
+        transition: all 0.5s ease-in-out;
+    }
+
+    
+
+    .swiper{
+        width: 350px;
+        
+    }
+
+    .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+        margin-top: 5px!important;
+        height: 1px;
+        width: 10%;
+    }
+
+}

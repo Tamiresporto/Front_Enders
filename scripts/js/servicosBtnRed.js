@@ -1,4 +1,4 @@
-const btnServicos = document.querySelectorAll('.btn-servicos');
+const btnServicos = document.querySelectorAll('id="cadastroI"');
 
 btnServicos[0].addEventListener("click", () => {
     location.assign("./cadastro.html");
