@@ -211,6 +211,7 @@
     </footer>
   </div>
   <!--------- FIM DO FOOTER -------------------------->
+  
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/js/jquery.mask.js"></script>
     <script src="scripts/js/models/modelCep.js"></script>
@@ -221,6 +222,17 @@
     <script src="scripts/js/views/viewValidacao.js"></script>
     <script src="scripts/js/controllers/controllerValidacao.js"></script>
     <script src="scripts/js/utilitarios-js.js"></script>
+    <!---------------------- ACESSIBILIDADE -------------------------->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 
 </html>
