@@ -30,7 +30,9 @@
   font-size: 80px;
 }
 
-
+main{
+  margin-inline: 100px;
+}
 
 #pic-logo{
   width: 103px;

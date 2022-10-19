@@ -85,6 +85,10 @@ main{
 #buscaCep{
     margin-top: 2em;
 }
+.mt-4 {
+    margin-top: 3.5rem!important;
+    width: 200px!important;
+}
 
 .envia{
     display: flex;
