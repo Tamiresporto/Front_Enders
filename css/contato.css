@@ -405,6 +405,7 @@ section .card {
 
     body {
         display: flexbox;
+        margin: auto!important;
         transition: all 0.5s ease-in-out;
     }
 
@@ -421,24 +422,28 @@ section .card {
     }
 
     .title {
-        margin: auto;
+        align-content: center;
+        margin-top: 70px!important;
+        margin: auto!important;
     }
 
 
     .title h1 {
-        font-size: 40px!important;
+        font-size: 70px!important;
         transition: all 0.5s ease-in-out;
     }
 
-    .subtitulo {
-        font-size: 16px!important;
+    .title p {
+        font-size: 20px!important;
+        width: 80%!important;
+        transition: all 0.5s ease-in-out;
     }
 
-    .cards {
-        width: 10px!important;
-        margin: auto;
+    .swiper{
+        width: 350px;
+        
     }
-
+    
     .swiper-button-next, .swiper-button-prev, .swiper-pagination {
         margin-top: 5px!important;
         height: 1px;
