@@ -409,6 +409,10 @@ section .card {
         transition: all 0.5s ease-in-out;
     }
 
+    .title {
+        width: 100%;
+    }
+
     /* SECTION PRINCIPAL VAI DESAPARECER*/
     .section-desktop {
         display: none;
@@ -421,29 +425,13 @@ section .card {
         transition: all 0.5s ease-in-out;
     }
 
-    .title {
-        align-content: center;
-        margin-top: 70px!important;
-        margin: auto!important;
-    }
-
-
-    .title h1 {
-        font-size: 70px!important;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .title p {
-        font-size: 20px!important;
-        width: 80%!important;
-        transition: all 0.5s ease-in-out;
-    }
+    
 
     .swiper{
         width: 350px;
         
     }
-    
+
     .swiper-button-next, .swiper-button-prev, .swiper-pagination {
         margin-top: 5px!important;
         height: 1px;
