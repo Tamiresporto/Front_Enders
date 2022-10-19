@@ -15,32 +15,30 @@ picLogoIndex.addEventListener('click',()=>{
     location.assign('./index.html')
 })
 
-servicos.addEventListener('click', () => {
-    location.assign('./html/servicos.html')
-})
+
 
 contatos.addEventListener('click', () => {
-    location.assign('./html/contatos.html')
+    location.assign('.contato.html')
 })
 
 login.addEventListener('click', () => {
-    location.assign('./html/login.html')
+    location.assign('.login.html')
 })
 
 cadastro.addEventListener('click', () => {
-    location.assign('./html/cadastro.html')
+    location.assign('.cadastro.html')
 })
 
 saibaMais[0].addEventListener('click', () => {
-    location.assign('./html/servicos.html')
+    location.assign('.cadastro.html')
 })
 saibaMais[1].addEventListener('click', () => {
-    location.assign('./html/servicos.html')
+    location.assign('.cadastro.html')
 })
 saibaMais[2].addEventListener('click', () => {
-    location.assign('./html/servicos.html')
+    location.assign('.cadastro.html')
 })
 saibaMais[3].addEventListener('click', () => {
-    location.assign('./html/servicos.html')
+    location.assign('.cadastro.html')
 })
 

@@ -31,7 +31,7 @@
 }
 
 main{
-  margin:auto;
+  margin-inline: 100px;
 }
 
 #pic-logo{
