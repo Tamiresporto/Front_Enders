@@ -21,6 +21,9 @@
   --font-texto: 'Oitobit-txt'
   
 }
+main{
+  margin-bottom: 150px;
+}
 
 .card.mb-4.rounded-3.shadow-sm{
   align-content: center;
