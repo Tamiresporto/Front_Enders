@@ -112,6 +112,9 @@ main{
     display: none;
     justify-content: center;
 }
+.text-muted {
+    color: #6c757d!important;
+}
 
 .alertaErro {
     color: red!important;

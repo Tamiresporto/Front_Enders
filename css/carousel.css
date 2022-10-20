@@ -23,12 +23,14 @@ main .container-img section h2, main .container-img section p{
   font-family: 'Montserrat', sans-serif;
   font-size: 100px;
   color: #f0f0f0;
+  text-shadow: 10px 10px 10px black;
 }
 
 main .container-img section p{
+  text-shadow: 3px 3px 3px black;
   text-align: center;
-  top: 60%;
-  width: 60%;
+  top: 70%;
+  width: 100%;
 }
 
 
