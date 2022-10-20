@@ -404,20 +404,22 @@ section .card {
 @media only screen and (max-width: 501px) { 
 
     body {
+        width: 100%;
         display: flexbox;
         margin: auto!important;
         transition: all 0.5s ease-in-out;
     }
 
     .title h1 {
-        width: 187%;
+        width: 100%;
+        font-size: 33px!important;
         text-align: center;
         
     }
 
-    title p {
-        width: 187%!important;
-        margin-left: 30%;
+   .subtitulo {
+        margin: auto;
+        
     }
 
     /* SECTION PRINCIPAL VAI DESAPARECER*/
@@ -433,16 +435,23 @@ section .card {
     }
 
     
+    .section-mobile {
+        width: 100%;
+    }
+
 
     .swiper{
-        width: 350px;
+        width: 270px;
         
     }
 
     .swiper-button-next, .swiper-button-prev, .swiper-pagination {
-        margin-top: 5px!important;
-        height: 1px;
-        width: 10%;
+        
     }
 
+}
+
+.swiper-button-next, .swiper-button-prev {
+    height: 1px!important;
+    width: 0.5px!important;;
 }
