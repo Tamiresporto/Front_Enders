@@ -125,7 +125,7 @@ $(modelo.btnLogin).click((event) => {
 
     }
     else if (modelo.validarEmail(modelo.email.val() == "error") || modelo.validarSenha(modelo.senha.val() == "error") ){
-        erro.style.display = "flex"
+        alert('Verifique seu login e senha e tenta novamente.')
     }
 
 })
