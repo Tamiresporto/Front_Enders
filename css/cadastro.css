@@ -83,7 +83,7 @@ main{
 }
 
 #buscaCep{
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .mt-4 {
     margin-top: 3.5rem!important;
@@ -112,12 +112,14 @@ main{
     display: none;
     justify-content: center;
 }
+.text-muted {
+    color: #6c757d!important;
+}
 
 .alertaErro {
-    color: red;
+    color: red!important;
     text-align: center;
     font-size: 1.70rem;
-    font-family:'rainyhearts';
 }
 @media (max-width: 768px) {
     .row{

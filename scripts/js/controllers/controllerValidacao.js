@@ -53,37 +53,7 @@ $(document).ready(()=> {
           $(modelo.pic0).attr("src", "../imgs/erikpadrao.svg")
     });
     
-    // Hover do Rodrigo Assunção
-    $(modelo.pic1).mouseenter(() => {
-        $(modelo.pic1).attr("src", "../imgs/digoreal.png")
-      })
-    $(modelo.pic1).mouseleave(()=> {
-        $(modelo.pic1).attr("src", "../imgs/rodrigo.svg")
-    });
     
-    //Hover do João Pedro
-    $(modelo.pic2).mouseenter(()=> {
-        $(modelo.pic2).attr("src", "../imgs/jocareal.jpg")
-    })
-    $(modelo.pic2).mouseleave(()=> {
-        $(modelo.pic2).attr("src", "../imgs/joca.svg")
-    })
-    
-    //Hover do Willian Carvalho
-    $(modelo.pic3).mouseenter(()=> {
-        $(modelo.pic3).attr("src", "../imgs/willianreal.png")
-    })
-    $(modelo.pic3).mouseleave(()=> {
-        $(modelo.pic3).attr("src", "../imgs/willian.svg")
-    })
-    
-    // Hover do Talysson Barbosa
-    $(modelo.pic4).mouseenter(()=> {
-        $(modelo.pic4).attr("src", "../imgs/talynreal.png")
-    })
-    $(modelo.pic4).mouseleave(()=> {
-        $(modelo.pic4).attr("src", "../imgs/talyn.svg")
-    })
 })
 
 
@@ -139,7 +109,8 @@ $(modelo.numero).keyup(()=>{
 $(modelo.btnCadastro).click((event)=>{
     event.preventDefault()
     if(modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarNome(modelo.nome.val()) == "success" && modelo.validarNome(modelo.sobrenome.val()) == "success" && modelo.validarRG(modelo.rg.val()) == "success" && modelo.validarSenha(modelo.senha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val(), modelo.confirmaSenha.val()) == "success" && modelo.validarCep(modelo.cep.val()) == "success" && modelo.validarReq(modelo.numero.val()) == "success" ) {
-        location.assign('../index.html')
+        alert('Seu cadastro foi realizado com sucesso!')
+        location.assign('index.html')
     } else {
         $("#alertaDiv").css("display", "flex")
     }
@@ -150,22 +121,23 @@ const erro = document.querySelector("#erro")
 $(modelo.btnLogin).click((event) => {
     event.preventDefault()
     if (modelo.validarEmail(modelo.email.val()) == "success"  && modelo.validarSenha(modelo.senha.val())== "success" ) {
-        location.assign("../index.html");
+        location.assign("index.html");
 
     }
     else if (modelo.validarEmail(modelo.email.val() == "error") || modelo.validarSenha(modelo.senha.val() == "error") ){
-        erro.style.display = "flex"
+        alert('Verifique seu login e senha e tenta novamente.')
     }
 
 })
 
 $(modelo.btnEsqueci).click((event) => {
     event.preventDefault()
-    if (modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarSenha(modelo.confirmaSenha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val() == "success"))  {
-        location.assign("../index.html");
+    if (modelo.validarEmail(modelo.email.val()) == "success" )  {
+        alert('Verifique seu email para recurepar sua senha!')
+        location.assign("index.html");
 
     }
     else if (modelo.validarEmail(modelo.email.val()) == "error" || modelo.validarSenha(modelo.senha.val()) == "error" || modelo.validarSenha(modelo.confirmaSenha.val() =="error")){
-        erro.style.display = "flex"
+        alert('Verifique os dados e tente novamente!')
     }
 })

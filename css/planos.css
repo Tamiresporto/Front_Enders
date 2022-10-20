@@ -21,17 +21,21 @@
   --font-texto: 'Oitobit-txt'
   
 }
+main{
+  margin-bottom: 150px;
+}
+
 .card.mb-4.rounded-3.shadow-sm{
-  margin-inline: 60px;
   align-content: center;
-  width: 400px;
-}
-.pricing-header h1 {
-  font-family: var(--font-texto);
-  font-size: 80px;
+  width: 360px;
+  height: 400px;
 }
 
-
+.container.main.row.text-center {
+  padding: 0px!important;
+  margin-right: 0px !important;
+  margin-left: 6% !important;
+}
 
 #pic-logo{
   width: 103px;
@@ -90,7 +94,7 @@ form p {
   .card.mb-4.rounded-3.shadow-sm{
     margin-inline: 20px;
     align-content: center;
-    width: 350px;
+    width: 300px;
   }
 }
 
@@ -99,7 +103,7 @@ form p {
   .card.mb-4.rounded-3.shadow-sm{
     margin-inline: 20px;
     align-content: center;
-    width: 300px;
+    width: 280px;
   }
 }
 
@@ -108,6 +112,6 @@ form p {
   .card.mb-4.rounded-3.shadow-sm{
     margin-left: 40px;
     align-content: center;
-    width: 280px;
+    width: 250px;
   }
 }
