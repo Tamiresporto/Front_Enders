@@ -138,6 +138,6 @@ $(modelo.btnEsqueci).click((event) => {
 
     }
     else if (modelo.validarEmail(modelo.email.val()) == "error" || modelo.validarSenha(modelo.senha.val()) == "error" || modelo.validarSenha(modelo.confirmaSenha.val() =="error")){
-        erro.style.display = "flex"
+        alert('Verifique os dados e tente novamente!')
     }
 })
