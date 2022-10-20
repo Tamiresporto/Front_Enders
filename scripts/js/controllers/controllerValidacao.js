@@ -110,7 +110,7 @@ $(modelo.btnCadastro).click((event)=>{
     event.preventDefault()
     if(modelo.validarEmail(modelo.email.val()) == "success" && modelo.validarNome(modelo.nome.val()) == "success" && modelo.validarNome(modelo.sobrenome.val()) == "success" && modelo.validarRG(modelo.rg.val()) == "success" && modelo.validarSenha(modelo.senha.val()) == "success" && modelo.validarSenhaIgual(modelo.senha.val(), modelo.confirmaSenha.val()) == "success" && modelo.validarCep(modelo.cep.val()) == "success" && modelo.validarReq(modelo.numero.val()) == "success" ) {
         alert('Seu cadastro foi realizado com sucesso!')
-        location.assign('../index.html')
+        location.assign('index.html')
     } else {
         $("#alertaDiv").css("display", "flex")
     }
@@ -121,7 +121,7 @@ const erro = document.querySelector("#erro")
 $(modelo.btnLogin).click((event) => {
     event.preventDefault()
     if (modelo.validarEmail(modelo.email.val()) == "success"  && modelo.validarSenha(modelo.senha.val())== "success" ) {
-        location.assign("../index.html");
+        location.assign("index.html");
 
     }
     else if (modelo.validarEmail(modelo.email.val() == "error") || modelo.validarSenha(modelo.senha.val() == "error") ){
@@ -134,7 +134,7 @@ $(modelo.btnEsqueci).click((event) => {
     event.preventDefault()
     if (modelo.validarEmail(modelo.email.val()) == "success" )  {
         alert('Verifique seu email para recurepar sua senha!')
-        location.assign("../index.html");
+        location.assign("index.html");
 
     }
     else if (modelo.validarEmail(modelo.email.val()) == "error" || modelo.validarSenha(modelo.senha.val()) == "error" || modelo.validarSenha(modelo.confirmaSenha.val() =="error")){
