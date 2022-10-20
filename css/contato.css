@@ -436,7 +436,7 @@ section .card {
 
     
     .section-mobile {
-        width: 100%;
+        width: 115%;
     }
 
 
@@ -451,7 +451,3 @@ section .card {
 
 }
 
-.swiper-button-next, .swiper-button-prev {
-    height: 1px!important;
-    width: 0.5px!important;;
-}
