@@ -32,26 +32,10 @@ const modelo = new ValidaModel
 const view = new ValidaView
 const controlador = new ValidaController
 
-// $(document).ready(() => {
-//    
-    
-//     $(modelo.div1).click(function() {
-//         alert("alo")
-//     })
-// })
 
-// Mascara do
 
 $(document).ready(()=> {
     $(modelo.rg).mask("00.000.000-0")
-    
-    //Hover do Erik Souza
-    $(modelo.pic0).mouseenter(()=> {
-        $(modelo.pic0).attr("src", "../imgs/erik.png")
-    })
-    $(modelo.pic0).mouseleave(()=> {
-          $(modelo.pic0).attr("src", "../imgs/erikpadrao.svg")
-    });
     
     
 })
